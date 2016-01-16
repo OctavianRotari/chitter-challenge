@@ -1,4 +1,4 @@
-Chitter Challenge [![Build Status](https://travis-ci.org/giamir/chitter-challenge.svg?branch=master)](https://travis-ci.org/giamir/chitter-challenge) [![Coverage Status](https://coveralls.io/repos/giamir/chitter-challenge/badge.svg?branch=master&service=github)](https://coveralls.io/github/giamir/chitter-challenge?branch=master)
+Chitter Challenge 
 =================
 
 Challenge:
