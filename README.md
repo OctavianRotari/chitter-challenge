@@ -30,4 +30,21 @@ So that I can better appreciate the context of a peep
 I want to see the time at which it was made
 ```
 
+## Run the App on heroku
+https://chitter-octo.herokuapp.com/
 
+## Run the App localy
+
+$ git clone git@github.com:giamir/chitter-challenge.git
+$ cd chitter-challenge
+$ bundle
+$ createdb chitter_development
+$ rake db:migrate
+$ rackup
+
+##Technologies
+-------------
+- Ruby
+- Sinatra
+- Postgres
+- DataMapper
