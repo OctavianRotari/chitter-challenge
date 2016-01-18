@@ -38,7 +38,7 @@ https://chitter-octo.herokuapp.com/
 
 Usage:
 ------
-0. ```git clone git@github.com:thisdotrob/chitter-challenge.git```
+0. ```git clone https://github.com/OctavianRotari/chitter-challenge.git```
 0. ```bundle```
 0. ```createdb chitter_development```
 0. ```rake db:auto_migrate```
