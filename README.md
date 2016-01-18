@@ -1,6 +1,9 @@
 Chitter Challenge 
 =================
 
+##ScreenShot
+![screenshot](http://i.imgur.com/bvmRtcG.png)
+
 Features:
 -------
 
@@ -33,14 +36,20 @@ I want to see the time at which it was made
 ## Run the App on heroku
 https://chitter-octo.herokuapp.com/
 
-## Run the App localy
+Usage:
+------
+0. ```git clone git@github.com:thisdotrob/chitter-challenge.git```
+0. ```bundle```
+0. ```createdb chitter_development```
+0. ```rake db:auto_migrate```
+0. ```rackup```
+0. visit http://localhost:9292
 
-$ git clone git@github.com:giamir/chitter-challenge.git
-$ cd chitter-challenge
-$ bundle
-$ createdb chitter_development
-$ rake db:migrate
-$ rackup
+To run tests:
+------
+0. ```createdb chitter_test```
+0. ```rake db:auto_migrate RACK_ENV=test```
+0. ```rspec``
 
 ##Technologies
 -------------
